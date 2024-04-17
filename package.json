@@ -1,8 +1,12 @@
 {
   "name": "aa002numberguessing",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "this is a simple number guessing game.",
   "main": "index.js",
+  "type": "module",
+  "bin": {
+    "aa002numberguessing": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
